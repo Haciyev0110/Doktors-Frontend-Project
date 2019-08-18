@@ -1,0 +1,361 @@
+#Footer{
+    width: 100%;
+    height: auto;
+    background-color: #d9534f;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    .container{
+        .contacts{
+            padding-top: 0.5%;
+                ul{
+                    display: flex;
+                    border-bottom: 3px solid #ffffff;
+                    padding: 0;
+                    padding-bottom: 0.5%;
+
+                    li{
+                        list-style: none;
+                        display: inline-block;
+                        margin-right: 3%;
+                        a{
+                            color: #ffffff;
+                            text-decoration: none;
+                            font-size: 18px;
+                            font-family: "Tahoma";
+                            letter-spacing: 1px;
+                            transition: 0.6s ease-in-out;
+                            &:hover{
+                                color: #7ad1c1;
+                            }
+                        }
+                        &:last-child{
+                            width: 225px;
+                            text-align: center;
+                            background-color: #ffffff;
+                            color: #d9534f;
+                            border-radius: 6px;
+                            line-height: 1;
+                            padding-left: 1%;
+                            
+                            display: flex;
+                            h6{
+                                display: inline-block;
+                                margin-right: 5px;
+                                font-size: 16px;
+                                margin-top: 5px;
+                                letter-spacing: 1px;
+
+                            }
+                            p{
+                                display: inline-block;
+                                margin: 0;
+                            font-size: 16px;
+                            letter-spacing: 0.5px;
+
+                            }
+                        }
+                    }
+                }
+        }
+        .aboutdoktor{
+            width: 100%;
+            height: 289px;
+            padding-left: 8.5%;
+            border-right: 2px solid #ffffff;
+            text-align: center;
+            padding-top: 10%;
+            h6{
+                font-size: 14px !important;
+                color: #ffffff;
+                font-weight: bold;
+                letter-spacing: 1px;
+                font-family: "Tahoma";
+            }
+            p{
+                color: #ffffff;
+                font-size: 16px;
+                font-family: "Tahoma";
+                text-align: center;
+                line-height: 1.8;
+
+            }
+        }
+        .title2{
+            width: 100%;
+            padding-top: 14%;
+            text-align: center;
+            height: 289px;
+            border-right: 2px solid #ffffff;
+
+            span{
+                width: 100%;
+                display: flex;
+                padding-left: 7%;
+                img{
+                    width: 30%;
+                    height: 15%;
+                    padding-left: 4%;
+                }
+            }
+            h6{
+                font-size: 14px !important;
+                color: #ffffff;
+                font-weight: bold;
+                letter-spacing: 1px;
+                font-family: "Tahoma";
+            }
+            p{
+                color: #ffffff;
+                font-size: 16px;
+                font-family: "Tahoma";
+                text-align: center;
+                line-height: 1.8;
+                width: 81%;
+                padding-left: 21%;
+                padding-top: 8%;
+
+            }
+        }
+        .emailcontact{
+                width: 245px;
+                height: 248px;
+                border: 1.3px solid #ffffff;
+                border-radius: 10px;
+                text-align: center;
+                margin-top: 5%;
+                p{
+                    color: #ffffff;
+                    font-size: 11.54pt;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    padding-top: 5%;
+
+                }
+                input{
+                    background-color: transparent;
+                    border: 1px solid white;
+                    border-radius: 20px;
+                    width: 205px;
+                    height: 39px;
+                    outline: none;
+                    text-align: center;
+                    color: #ffffff;
+                    &::-webkit-inner-spin-button{
+                        -webkit-appearance: none;
+                    }
+                    &::placeholder{
+                               font-size: 13.56pt;
+                               font-size: "Tahoma";
+                               color: #ffffff;
+                               letter-spacing: 0.5px;
+                    }
+                  
+                   
+                }
+                button{
+                    width: 113px;
+                    height: 26px;
+                    cursor: pointer;
+                    border: 1px solid black;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    background-color: #ffffff;
+                    border-radius: 8px;
+                    color: #d9534f;
+                    font-size: 16px;
+                    font-family: "Tahoma";
+                    justify-content: center;
+                    &:focus{
+                        outline: none;
+               }
+                }
+                
+        }
+    }
+    
+}
+@media (max-width: 575.98px){
+
+    #Footer{
+        width: 100%;
+        height: auto;
+        background-color: #d9534f;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        .footerimage{
+                    display: none;
+        }
+        .container{
+            .contacts{
+                padding-top: 0.5%;
+                    ul{
+                        border-bottom: 3px solid #ffffff;
+                        padding: 0;
+                        padding-bottom: 0.5%;
+                        display: none;
+    
+                        li{
+                            list-style: none;
+                            display: block;
+                            margin-right: 3%;
+                            a{
+                                color: #ffffff;
+                                text-decoration: none;
+                                font-size: 18px;
+                                font-family: "Tahoma";
+                                letter-spacing: 1px;
+                                transition: 0.6s ease-in-out;
+                                &:hover{
+                                    color: #7ad1c1;
+                                }
+                            }
+                            &:last-child{
+                                width: 225px;
+                                text-align: center;
+                                background-color: #ffffff;
+                                color: #d9534f;
+                                border-radius: 6px;
+                                line-height: 1;
+                                padding-left: 1%;
+                                
+                                display: flex;
+                                h6{
+                                    display: inline-block;
+                                    margin-right: 5px;
+                                    font-size: 16px;
+                                    margin-top: 5px;
+                                    letter-spacing: 1px;
+    
+                                }
+                                p{
+                                    display: inline-block;
+                                    margin: 0;
+                                font-size: 16px;
+                                letter-spacing: 0.5px;
+    
+                                }
+                            }
+                        }
+                    }
+            }
+            .aboutdoktor{
+                width: 100%;
+                height: 289px;
+                padding-left: 3.5%;
+                border: none;
+                text-align: center;
+                padding-top: 10%;
+                h6{
+                    font-size: 14px !important;
+                    color: #ffffff;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    font-family: "Tahoma";
+                }
+                p{
+                    color: #ffffff;
+                    font-size: 16px;
+                    font-family: "Tahoma";
+                    text-align: center;
+                    line-height: 1.8;
+    
+                }
+            }
+            .title2{
+                width: 100%;
+                padding-top: 0  ;
+                text-align: center;
+                height: 289px;
+                border-right: none;
+    
+                span{
+                    width: 100%;
+                    display: flex;
+                    padding-left: 7%;
+                    padding-top: 4%;
+                    img{
+                        width: 30%;
+                        height: 15%;
+                        padding-left: 4%;
+                    }
+                }
+                h6{
+                    font-size: 14px !important;
+                    color: #ffffff;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    font-family: "Tahoma";
+                }
+                p{
+                    color: #ffffff;
+                    font-size: 16px;
+                    font-family: "Tahoma";
+                    text-align: center;
+                    line-height: 1.8;
+                    width: 81%;
+                    padding-left: 21%;
+                    padding-top: 8%;
+    
+                }
+            }
+            .emailcontact{
+                    width: 100%;
+                    height: auto;
+                    border: 1.3px solid #ffffff;
+                    border-radius: 10px;
+                    text-align: center;
+                    margin-top: 0;
+                    p{
+                        color: #ffffff;
+                        font-size: 11.54pt;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        padding-top: 5%;
+    
+                    }
+                    input{
+                        background-color: transparent;
+                        border: 1px solid white;
+                        border-radius: 20px;
+                        width: 205px;
+                        height: 39px;
+                        outline: none;
+                        text-align: center;
+                        color: #ffffff;
+                        &::-webkit-inner-spin-button{
+                            -webkit-appearance: none;
+                        }
+                        &::placeholder{
+                                   font-size: 13.56pt;
+                                   font-size: "Tahoma";
+                                   color: #ffffff;
+                                   letter-spacing: 0.5px;
+                        }
+                      
+                       
+                    }
+                    button{
+                        width: 113px;
+                        height: 26px;
+                        cursor: pointer;
+                        border: 1px solid black;
+                        margin-top: 5%;
+                        margin-bottom: 5%;
+                        background-color: #ffffff;
+                        border-radius: 8px;
+                        color: #d9534f;
+                        font-size: 16px;
+                        font-family: "Tahoma";
+                        justify-content: center;
+                        &:focus{
+                            outline: none;
+                   }
+                    }
+                    
+            }
+        }
+        
+    }
+}
+
+

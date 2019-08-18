@@ -1,0 +1,332 @@
+$mainColor: #7ad1c1;
+$secondColor:#d9534f;
+$fontColor:#ffffff;
+
+header{
+    margin-bottom: 20px;
+    .topHeader{
+        background: $mainColor;
+        .container{
+            .row{
+                .list-group{
+                    flex-direction: row;
+                    text-align: center;
+                    padding: 5px 0px;
+                    .list-group-item{
+                        background: none;
+                        border: none;
+                        border-radius: 0;
+                        border-right: 1px solid $fontColor;
+                        &:last-child{
+                            border:none;
+                        }
+                        &:hover{
+                            i{
+                                color: $secondColor;
+                            }
+                        }
+                        i{
+                            color: $fontColor;
+                            transition: all .3s ease;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+    .middleHeader{
+        .container{
+            .row{
+                .input-group{
+                    ::placeholder{
+                        text-align: center;
+                        color: $fontColor;
+                    }
+                    .form-control{
+                        background: $secondColor;
+                        border-color: $secondColor;
+                        color: $fontColor;
+                        &:focus{
+                            box-shadow: none;
+                        }
+                    }
+                    .input-group-append{
+                        .btn{
+                            border-color: $secondColor;
+                            i{
+                                background: none;
+                                color: $secondColor;
+                            }
+                            &:hover{
+                                background: none;
+                            }
+                            &:focus{
+                                box-shadow: none;
+                            }
+                        }
+                    }
+                }
+                .list-group{
+                    flex-direction: row;
+                    a{
+                        text-decoration: none;
+                    }
+                    .list-group-item{
+                        text-align: center;
+                        line-height: 1.5;
+                        width: 130px;
+                        background: $secondColor;
+                        color: $fontColor;
+                        margin-right: 5px;
+                        border-radius: 10px;
+                        padding: 4px;
+                        i{
+                            float: left;
+                            line-height: 1.5;
+                            padding: 4px;
+                            margin-right: 4px;
+                            font-size: 12px;
+                            border-right: 1px solid #BE312D;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bottomHeader{
+        .container{
+            .row{
+                nav{
+                    padding: 0px 0px;
+                    background: $mainColor;
+                    .navbar-nav{
+                        .nav-item{
+                            padding: 5px 0px;
+                            .nav-link{
+                            padding: 5px 42px;
+
+                                font-size: 16px;
+                                font-weight: 600;
+                                border-right: 1px solid #15AA8F;
+                                color: $fontColor;
+
+                            }
+                            &:last-child{
+                                .nav-link{
+                                    border: none;
+                                    padding: 5px 46px;
+                                }
+                            }
+
+                            &:hover{
+                                background: #15AA8F;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .topheader2{
+        .Selects{
+             
+               background-image: url("../../Images/inputBg.png");
+               background-repeat: no-repeat;
+               width: 206px;
+               padding: 5px 15px;
+                 .langInput{
+                         width: 175px;
+                         background: $fontColor;
+                         border-radius: 20px;
+                         height: 28px;
+                         color: #ffffff;
+    .nav-link{
+        color: $mainColor;
+        font-weight: 500;
+        line-height: 1;
+        text-align: center;
+        span{
+            float: left;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        i{
+            float: right;
+            margin-left:30px;
+        }
+    }
+    .dropdown-menu{
+        width: 175px;
+        background: $fontColor;
+        height: 28px;
+        border-radius: 20px;
+        padding: .5rem 1rem;
+        .dropdown-item{
+            color: $mainColor;
+            font-weight: 500;
+            line-height: 1;
+            text-align: center;
+            padding: 0;
+            span{
+                float: left;
+                margin-right: -20px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+        }
+       
+    }
+}
+
+@media (max-width: 575.98px){
+
+
+    header{
+        margin-bottom: 20px;
+        .topHeader{
+            background: $mainColor;
+            .container{
+                .row{
+                    .list-group{
+                        flex-direction: row;
+                        text-align: center;
+                        padding: 5px 0px;
+                        .list-group-item{
+                            background: none;
+                            border: none;
+                            border-radius: 0;
+                            border-right: 1px solid $fontColor;
+                            &:last-child{
+                                border:none;
+                            }
+                            &:hover{
+                                i{
+                                    color: $secondColor;
+                                }
+                            }
+                            i{
+                                color: $fontColor;
+                                transition: all .3s ease;
+                            }
+                        }
+                    }
+                   
+                }
+            }
+        }
+        .middleHeader{
+            .container{
+                .row{
+                    .input-group{
+                        ::placeholder{
+                            text-align: center;
+                            color: $fontColor;
+                        }
+                        .form-control{
+                            background: $secondColor;
+                            border-color: $secondColor;
+                            color: $fontColor;
+                            &:focus{
+                                box-shadow: none;
+                            }
+                        }
+                        .input-group-append{
+                            .btn{
+                                border-color: $secondColor;
+                                i{
+                                    background: none;
+                                    color: $secondColor;
+                                }
+                                &:hover{
+                                    background: none;
+                                }
+                                &:focus{
+                                    box-shadow: none;
+                                }
+                            }
+                        }
+                    }
+                    .list-group{
+                        flex-direction: row;
+                        a{
+                            text-decoration: none;
+                        }
+                        .list-group-item{
+                            text-align: center;
+                            line-height: 1.5;
+                            width: 130px;
+                            background: $secondColor;
+                            color: $fontColor;
+                            margin-right: 5px;
+                            border-radius: 10px;
+                            padding: 4px;
+                            i{
+                                float: left;
+                                line-height: 1.5;
+                                padding: 4px;
+                                margin-right: 4px;
+                                font-size: 12px;
+                                border-right: 1px solid #BE312D;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .topheader2{
+            .Selects{
+                 
+                   background-image: url("../../Images/inputBg.png");
+                   background-repeat: no-repeat;
+                   width: 206px;
+                   padding: 5px 15px;
+                     .langInput{
+                             width: 175px;
+                             background: $fontColor;
+                             border-radius: 20px;
+                             height: 28px;
+                             color: #ffffff;
+        .nav-link{
+            color: $mainColor;
+            font-weight: 500;
+            line-height: 1;
+            text-align: center;
+            span{
+                float: left;
+                margin-right: 20px;
+                border-radius: 10px;
+            }
+            i{
+                float: right;
+                margin-left:30px;
+            }
+        }
+        .dropdown-menu{
+            width: 175px;
+            background: $fontColor;
+            height: 28px;
+            border-radius: 20px;
+            padding: .5rem 1rem;
+            .dropdown-item{
+                color: $mainColor;
+                font-weight: 500;
+                line-height: 1;
+                text-align: center;
+                padding: 0;
+                span{
+                    float: left;
+                    margin-right: -20px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+            }
+           
+        }
+    }
+}

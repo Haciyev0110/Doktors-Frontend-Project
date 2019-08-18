@@ -1,0 +1,116 @@
+@import "index";
+@import "_header";
+@import "_footer";
+@import "servicefooter";
+
+
+#teklif{
+         margin-bottom: 3%;
+    h2{
+        color: #d9543f;
+        font-weight: bold;
+    }
+    label{
+        color: #d9543f;
+    }
+    .refresh{
+        color: #d9543f;
+    }
+    span{
+        color: #d9543f;
+        font-size: 18px;
+    }
+    .sendbtn{
+        background-color: #3ec5ac;
+        color: white;
+        font-weight: bold;
+    }
+    .allinput{
+        background-color: #d9543f;
+        color: white;
+        &::placeholder{
+            color: white;
+        }
+    }
+    .list{
+        ul{
+            padding-inline-start: 0px !important;
+
+            li{
+                list-style-type: none;
+                color: #d9543f;
+                font-weight: bold;
+                margin-bottom: 5px;
+                i{
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                a{
+                    text-decoration: none;
+                    color: #d9543f;
+                    font-size: 15px;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 764.98px) and (max-width: 1023px){
+    #teklif{
+    
+        h2{
+            color: #d9543f;
+            font-weight: bold;
+        }
+        label{
+            color: #d9543f;
+            font-size: 10px;
+        }
+        .refresh{
+            color: #d9543f;
+        }
+        span{
+            color: #d9543f;
+            font-size: 18px;
+        }
+        .sendbtn{
+            background-color: #3ec5ac;
+            color: white;
+            font-weight: bold;
+        }
+        .allinput{
+            background-color: #d9543f;
+            color: white;
+            &::placeholder{
+                color: white;
+            }
+        }
+        .list{
+            ul{
+                padding-inline-start: 0px !important;
+    
+                li{
+                    list-style-type: none;
+                    color: #d9543f;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                    i{
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #d9543f;
+                        font-size: 15px;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
